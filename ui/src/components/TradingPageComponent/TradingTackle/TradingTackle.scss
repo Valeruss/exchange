@@ -1,0 +1,28 @@
+.trading-tackle-container {
+    width: 100%;
+    height: 100%;
+
+    .tt-header {
+        height: 37px;
+        font-size: 12px;
+        
+        &-container {
+            display: flex;
+            height: 100%;
+            width: 50%;
+            margin-left: 10px;
+
+            .tab-btn {
+                padding: 10px 13px 0px 13px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.method-selected {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #D9552B;
+    color: #D9552B;
+}

@@ -1,0 +1,42 @@
+@import '../variables.scss';
+
+.btn {
+    display: block;
+}
+
+.topnav {
+    background-color: $background-color;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgba(145,148,159,.2);
+    position: fixed;
+    height: 48px;
+    width: 100%;
+    z-index: 999;
+}
+
+.topnav div {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+}
+
+.topnav div:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav div.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.card {
+    margin-left: 40px;
+}
